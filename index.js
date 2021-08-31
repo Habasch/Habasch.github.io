@@ -40,7 +40,8 @@ const elms = [
     new Counter("Hours", () => Math.floor(SCHOOL_END.diff(DateTime.now(), ["hours"]).hours)),
     new Counter("Minutes", () => Math.floor(SCHOOL_END.diff(DateTime.now(), ["minutes"]).minutes)),
     new Counter("Seconds", () => Math.floor(SCHOOL_END.diff(DateTime.now(), ["seconds"]).seconds)),
-    new Counter("Tenths of a second", () => Math.floor(SCHOOL_END.diff(DateTime.now(), ["seconds"]).seconds * 10)),
+    new Counter("1/10 Seconds", () => Math.floor(SCHOOL_END.diff(DateTime.now(), ["seconds"]).seconds * 10)),
+    new Counter("1/100 Seconds", () => Math.floor(SCHOOL_END.diff(DateTime.now(), ["seconds"]).seconds * 100)),
     new Counter("Milliseconds", () => Math.floor(SCHOOL_END.diff(DateTime.now(), ["milliseconds"]).milliseconds)),
 ];
 

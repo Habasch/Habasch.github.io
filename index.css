@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 body {
-  font-family: 'Amatic SC', cursive;
-  font-size: 50pt;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 35pt;
+  display: flex;
+  justify-content: center;
 }
 
 .dur-cont {
@@ -18,7 +20,7 @@ body {
 
 .sep {
   flex: 0;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .dur {
