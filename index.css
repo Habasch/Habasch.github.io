@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+body {
+  font-family: 'Amatic SC', cursive;
+  font-size: 50pt;
+}
+
+.dur-cont {
+  display: flex;
+  gap: 1em;
+}
+
+.nam {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.sep {
+  flex: 0;
+  font-weight: bold;
+}
+
+.dur {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+}
